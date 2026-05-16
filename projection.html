@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outil de Projection - MiniGrid</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <a href="index.html" class="back-link">← Retour à l'accueil</a>
+        <h1>Espace de Projection MiniGrid</h1>
+
+        <div id="canvas-container">
+            <canvas id="projectionCanvas"></canvas>
+        </div>
+
+        <div class="controls">
+            <button onclick="ajouterPlante('Transfo')">Ajouter Transformateur</button>
+            <button onclick="ajouterPlante('Serveur')">Ajouter Serveur</button>
+            <button onclick="effacerProjections()">Effacer Tout</button>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
